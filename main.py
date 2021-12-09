@@ -3,7 +3,7 @@ from diaries.FujisawaDiary import FujisawaDiary
 # ↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
     DiarySample(), 
-    FujisawaDiary()
+    FujisawaDiary(),
     ]
 for d in diaries:
     print("---------------------------------")
