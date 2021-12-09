@@ -1,11 +1,15 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
+
 class AbstractDiary(ABC):
-    @abstractclassmethod
+
+    @abstractmethod
     def get_date(self):
         pass
-    @abstractclassmethod
+
+    @abstractmethod
     def get_summary(self):
         pass
-    @abstractclassmethod
+
+    @abstractmethod
     def get_author(self):
         pass
