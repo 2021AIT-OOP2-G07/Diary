@@ -1,7 +1,6 @@
 from diaries.DiarySample import DiarySample
 from diaries.KamiyaDiary import KamiyaDiary
 from diaries.FujisawaDiary import FujisawaDiary
-from diaries.UkyoDiary import UkyoDiary
 from diaries.YokoboriDiary import YokoboriDiary
 from diaries.a_imaiDiary import a_imaiDiary
 from diaries.UkyoDiary import UkyoDiary
