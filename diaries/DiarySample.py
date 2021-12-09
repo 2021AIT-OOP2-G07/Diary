@@ -9,3 +9,4 @@ class DiarySample(AbstractDiary):
 
     def get_author(self):
         return "Sample"
+      
