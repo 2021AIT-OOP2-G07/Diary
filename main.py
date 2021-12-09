@@ -1,6 +1,10 @@
 from diaries.DiarySample import DiarySample
+from diaries.a_imaiDiary import a_imaiDiary
 # ↓のリストには、メンバーの各⽇記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [
+    DiarySample(),
+    a_imaiDiary(),
+]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
