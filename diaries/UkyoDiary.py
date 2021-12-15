@@ -7,7 +7,7 @@ class UkyoDiary(AbstractDiary):
         return "2021-12-09"
 
     def get_summary(self):
-        return """今日は本格的にチームでの作業をした。訳が分からなかった。"""
+        return """今日は本格的にチームでの作業をした。訳が分からなかった。なんとか頑張る"""
 
     def get_author(self):
         return "Ukyo"
