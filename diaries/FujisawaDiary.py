@@ -1,6 +1,5 @@
 from diaries.AbstractDiary import AbstractDiary
 
-
 class FujisawaDiary(AbstractDiary):
     def get_date(self):
         return "2021-12-09"
